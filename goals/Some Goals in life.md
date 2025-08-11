@@ -1,0 +1,3 @@
+ - [ ] Create a compiler
+ - [ ] Create a videogame
+ - [ ] Listening to piazzolla music in live
