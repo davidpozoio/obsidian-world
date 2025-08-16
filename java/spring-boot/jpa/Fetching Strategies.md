@@ -8,6 +8,7 @@ There are different fetching strategies, these are related how and when we fetch
 ## Eager Loading
 The related data is fetched immediately when we fetch the main resource.
 Applied to `@OneToOne @ManyToOne` by default [[Entity Relationships]].
+This strategy is not going to necessary fetch the data in one query, it's probably that it will use two queries, so we probably we need to use [[Entity Graph]] to fix this.
 ## Lazy Loading
 The related data is fetched when we access to the resource.
 Applied to `@OneToMany @ManyToMany` by default [[Entity Relationships]].

@@ -43,6 +43,7 @@ void create(){
 
 	Address address = new Address();
 	address.setUser(user); // it's important to specify the user because the address id is dependent of user id
+// we need to specify this in a managed state because hibernate doesn't know if the provided id is the real one to create the association correctly.
 
 	user.setAddress(address); // we set the nested entity
 

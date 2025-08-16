@@ -1,3 +1,9 @@
+---
+tags:
+  - Java
+  - Spring-boot
+---
+
 We can associate a procedure function to our repository using `@Procedure` useful if our custom queries are complex
 ```sql
 DELIMITER $$

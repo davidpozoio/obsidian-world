@@ -39,9 +39,14 @@ interface ArticleRepository extends CrudRepository<Article, Integer>{
 Here we have the corrected version, we need to manually handle the fields for custom queries.
 ```java
 interface ArticleRepository extends CrudRepository<Article, Integer>{
-	@Query("select a.id, a.name from Article where a.title = :title")
+	@Query("select a.id as id, a.name as name from Article a where a.title = :title")
 	Optional<ArticleProjection> findArticlesByTitle(@param("title") String title);
 }
+```
+It's important to declare the name of the attribute to do the mapping correctly
+```java
+// projection          //custom query
+getId()                  select u.id as id
 ```
 # Dynamic projections
 If we have different projections and we need to use them in different cases, we won't create function for each case, the best thing to do is create a generic function to handle our projections.
