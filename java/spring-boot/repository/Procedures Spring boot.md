@@ -23,6 +23,6 @@ And we can associate like this
 ```java
 interface ProductRepository extends CrudRepository<Product, Integer>{
 	@Procedure("findProductsByPrice") // name of the procedure
-	void findProductsByPrice(Decimal min, Decimal max);
+	List<Product> findProductsByPrice(Decimal min, Decimal max);
 }
 ```

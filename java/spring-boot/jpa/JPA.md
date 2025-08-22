@@ -26,6 +26,7 @@ To handle migrations we need to install `flyway`[[Flyway]].
 - [[Persistence Context]]
 - Repository
 	- [[Custom Queries]]
+	- [[Criteria API]]
 	- [[Derived queries]]
 	- [[Projections]]
 	- [[Avoiding n +1 problem]]

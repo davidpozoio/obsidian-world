@@ -9,7 +9,7 @@ SQL example, by default jpa uses jpql so we need to specify in the nativeQuery A
 It's important to specify `@Modifyng` annotation, because spring boot will treat this method a select.
 ```java
 interface EntityRepository extends CrudRepository<Entity, Integer>{
-	@Modifying // we need to this parameter to specify this is a update statement
+	@Modifying // we need to this parameter to specify this is an update statement
 	@Query(value = "update entity e set e.title = :title where e.user_id = :userId", nativeQuery=true)
 	void updateTitleByUserId(@Param("title") String title,@Param("userId") Integer userId);
 }
@@ -17,7 +17,7 @@ interface EntityRepository extends CrudRepository<Entity, Integer>{
 Using jpql
 ```java
 interface EntityRepository extends CrudRepository<Entity, Integer>{
-	@Modifying // we need to this parameter to specify this is a update statement
+	@Modifying // we need to this parameter to specify this is an update statement
 	@Query(value = "update Entity e set e.title = :title where e.userId = :userId")
 	void updateTitleByUserId(@Param("title") String title,@Param("userId") Integer userId);
 }

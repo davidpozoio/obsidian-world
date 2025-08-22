@@ -15,7 +15,7 @@ void exec(){
 	var entity = new Entity();// we create an entity, with this we can specify what attributes we need to match.
 	entity.setName("j");
 
-	var Example = Example.of(entity); // we need to create a example object
+	var Example = Example.of(entity); // we need to create an example object
 	// by default when we pass a example object the operation is "equal"
 	var entities = entityRepository.findAll(example);
 	// select * from entities where name = "j";
@@ -36,7 +36,7 @@ void exec(){
 }
 ```
 ### Properties
-Include the null values of specified entity.
+Include the null values of the specified entity.
 ```java
 var matcher = ExampleMatcher.matching()
 				.withIncludeNullValues();
