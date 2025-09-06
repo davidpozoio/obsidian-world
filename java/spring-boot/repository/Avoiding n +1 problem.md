@@ -1,3 +1,9 @@
+---
+tags:
+  - Java
+  - Spring-boot
+---
+
 This problem is about how many queries are done to the database.
 The most common example is the next
 	![[one to many relation.excalidraw|500]]
@@ -41,4 +47,4 @@ select ...some params from users left join notes;
 So here is only one query made.
 
 ## Problems using the last solution
-The main problem is if the notes table has many records and we need to paginated by user, we can't, so this approach is useful for data that is static or things like admin dashboard, etc.
+The main problem is if the notes table has many records and we need to paginate by user, we can't, so this approach is useful for data that is static or things like admin dashboard, etc.

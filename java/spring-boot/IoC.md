@@ -1,0 +1,2 @@
+IoC (inverse of control), it's a concept related how spring boot works, In simple words if you write the code and you handle the logic you are in control, but if spring boot handle the logic the control is inverse, now spring boot is who in charge of handling the logic of your application, this part of spring boot is called `container` so any logic handled in the container (Beans, Injections, etc.) is called IoC.
+

@@ -31,9 +31,8 @@ To handle migrations we need to install `flyway`[[Flyway]].
 	- [[Projections]]
 	- [[Avoiding n +1 problem]]
 	- [[Procedures Spring boot]]
-## Settings
-Show sql queries
-```python
-# application.properties
-spring.jpa.show-sql=true
-```
+- Filters
+	- [[Criteria API]]
+	- [[Specification API]]
+	- [[Sorting and pagination]]
+## [[Settings JPA]]

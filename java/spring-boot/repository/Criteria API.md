@@ -50,6 +50,7 @@ Root<Entity> root = cq.from(Entity.class); // FROM Entity
 ```
 Now at this point our query knows the returned type `Entity` and the origin `root` .
 So the next step is creating some predicates
+We can get a joined entity using the root value [[Join CriteriaBuilder]]
 ## Predicates
 The predicates are conditions used in queries. CriteriaBuilder gives us methods to create these predicates
 To define one we use this
@@ -58,14 +59,14 @@ Predicate p = cb.like(root.get("name"), "value"); // Entity.name like "value"
 ```
 ### Adding dynamic predicates
 ```java
-List<Predicate> predicated = new ArrayList<>();
+List<Predicate> predicates = new ArrayList<>();
 
 if (name != null){
-	predicate.add(cb.like(root.get("name", "my name"))); // Entity.name like "my name" 
+	predicates.add(cb.like(root.get("name", "my name"))); // Entity.name like "my name" 
 }
 
 if (price != null){
-	predicate.add(cb.greaterThan(root.get("price", 100))); // Entity.price > 100 
+	predicates.add(cb.greaterThan(root.get("price", 100))); // Entity.price > 100 
 }
 
 ```
@@ -132,3 +133,4 @@ public List<PublicProduct> findTestByCriteria() {
 	return entityManager.createQuery(cq).getResultList();
 }
 ```
+A simple way to do this is using the [[Specification API]].
