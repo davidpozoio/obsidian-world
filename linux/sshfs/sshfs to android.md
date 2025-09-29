@@ -1,3 +1,8 @@
+---
+tags:
+  - linux
+---
+
 You need to instal f-droid, this is an application to install primitive ftp, this application give us sftp and ftp connection we setup the user and password and port, and finally we need to install sshfs in our computer and execute this command.
 
 ```bash

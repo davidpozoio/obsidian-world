@@ -4,21 +4,45 @@
     "type": "split",
     "children": [
       {
-        "id": "982ba78c85df55ba",
+        "id": "9954a8139917232d",
         "type": "tabs",
         "children": [
           {
-            "id": "1d09ae1cbe65c04a",
+            "id": "cbcc590dbfba24d0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "java/spring-boot/web/Controller.md",
+                "file": "compiler/Parsing.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Controller"
+              "title": "Parsing"
+            }
+          },
+          {
+            "id": "98491c251ce3e47f",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
+          },
+          {
+            "id": "ee1b7d6094ed079e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "agile/scrum/SCRUM.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "SCRUM"
             }
           }
         ]
@@ -53,7 +77,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "auto start",
+                "query": "Input",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -78,7 +102,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 293.5
+    "width": 200
   },
   "right": {
     "id": "5aa124e4f24cf6bd",
@@ -166,7 +190,7 @@
             }
           },
           {
-            "id": "6976abc538cfbc7b",
+            "id": "563dd4f50b3bb659",
             "type": "leaf",
             "state": {
               "type": "mermaid-toolbar-view",
@@ -195,53 +219,54 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "1d09ae1cbe65c04a",
+  "active": "cbcc590dbfba24d0",
   "lastOpenFiles": [
-    "java/spring-boot/Spring boot.md",
-    "java/spring-boot/jpa/JPA.md",
-    "java/spring-boot/web/Controller.md",
-    "java/spring-boot/web/Web.md",
-    "java/spring-boot/web/Auto restart.md",
-    "java/spring-boot/beans/Beans.md",
-    "java/spring-boot/beans/Lifecycle in Beans.md",
-    "java/spring-boot/beans/Injection pattern with lombok.md",
-    "java/spring-boot/IoC.md",
-    "java/spring-boot/beans",
-    "java/Debug mode.md",
-    "java/compile/Compiler and execute.md",
-    "sql/migrations/Flyway.md",
-    "linux/sshfs/sshfs to android.md",
-    "nginx/Nginx.md",
-    "java/spring-boot/repository/Criteria API.md",
-    "java/spring-boot/jpa/Cascade strategies.md",
-    "java/spring-boot/jpa/Settings JPA.md",
-    "Excalidraw/Drawing 2025-09-04 21.54.18.excalidraw.md",
-    "java/spring-boot/repository/Specification API.md",
-    "java/spring-boot/repository/Join CriteriaBuilder.md",
-    "Untitled.base",
-    "java/spring-boot/web",
     "compiler/Parsing.md",
-    "compiler/Scanning.md",
+    "agile/scrum/SCRUM.md",
+    "database/docker compose.md",
+    "compiler/languages/Parameter vs Argument.md",
+    "compiler/Code generation.md",
+    "compiler/compiler-compilers.md",
     "compiler/Compilers.md",
-    "_resources/Pasted image 20250829003856.png",
-    "Excalidraw/language.excalidraw.md",
-    "Excalidraw/Drawing 2025-08-29 00.22.46.excalidraw.md",
-    "Pasted Image 20250829002248_337.png",
-    "_resources/Pasted image 20250829002150.png",
-    "_resources/Pasted image 20250829001442.png",
-    "README.md",
-    "_resources/Pasted image 20250828225942.png",
-    "compiler",
-    "java/compile",
-    "linux",
-    "linux/sshfs",
-    "_resources/Pasted image 20250822005801.png",
-    "music/tango",
-    "music",
-    "_resources/Pasted image 20250821224952.png",
-    "_resources/Pasted image 20250821223917.png",
-    "_resources/Pasted image 20250808005946.png",
-    "nginx",
+    "compiler/Compilers types.md",
+    "compiler/Fronted, middle end, backend.md",
+    "compiler/Domain specific language.md",
+    "compiler/Interpreters.md",
+    "compiler/Literals.md",
+    "compiler/Optimization.md",
+    "compiler/Runtime.md",
+    "compiler/Scanning.md",
+    "compiler/Static analysis.md",
+    "compiler/TokenType.md",
+    "_resources/Pasted image 20250928215814.png",
+    "design-patterns/Visitor Pattern.md",
+    "work/Fundación hogar.md",
+    "design-patterns",
+    "_resources/Pasted image 20250928002128.png",
+    "_resources/Pasted image 20250928001713.png",
+    "java/files/Create a file.md",
+    "java/Java.md",
+    "java/files/Read a file.md",
+    "java/files/IO files java.md",
+    "java/compile/Compiler and execute.md",
+    "linux/Add user to sudoers file.md",
+    "work/Bitacora.md",
+    "react",
+    "_resources/Pasted image 20250912000649.png",
+    "_resources/Pasted image 20250912185553.png",
+    "_resources/Pasted image 20250912185618.png",
+    "_resources/Pasted image 20250912185640.png",
+    "_resources/Pasted image 20250912185657.png",
+    "_resources/Pasted image 20250913200404.png",
+    "git",
+    "work",
+    "_resources/Pasted image 20250918215727.png",
+    "documentation",
+    "agile/scrum",
+    "Untitled.base",
+    "agile",
+    "database",
+    "java/files",
     "Untitled.canvas",
     "java/spring-boot/jpa/Persistence context graph.canvas",
     "Test canvas.canvas"

@@ -1,0 +1,3 @@
+- The software working is the measure of progress.
+- Sustainable development is a proof of agile methods.
+- Good design improve agile

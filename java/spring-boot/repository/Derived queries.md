@@ -51,7 +51,7 @@ public interface SomeEntity extends CrudRepository<Entity, Integer>{
  ```
 ### Order by operator
 You only need to include the `OrderByAttribute` to specify the order by default is `asc` but you can change it like this `findByIdOrderByNameDesc`.
-Order by operator doesn't need and operator.
+Order by operator doesn't need `and` connector.
 ```java
 public interface SomeEntity extends CrudRepository<Entity, Integer>{
 	List<Book> findByPriceBetweenOrderByName(Double min, Double max);

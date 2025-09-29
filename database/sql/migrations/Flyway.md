@@ -48,13 +48,13 @@ spring.application.name=relations
 
 # configuration used flyway maven plugin
 flyway.url=database_url
-flyway.username=root
+flyway.user=root
 flyway.password=1234
 
 # configuration used for jpa spring boot
-spring.datasource.url=${spring.flyway.url}
-spring.datasource.username=${spring.flyway.username}
-spring.datasource.password=${spring.flyway.password}
+spring.datasource.url=${flyway.url}
+spring.datasource.username=${flyway.user}
+spring.datasource.password=${flyway.password}
 ```
 # Commands
 ## flyway:info

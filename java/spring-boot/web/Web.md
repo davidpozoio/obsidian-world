@@ -24,3 +24,5 @@ You need to execute `./mvnw spring-boot:run`
 ```
 ## [[Auto restart]]
 ## [[Controller]]
+## [[Cors]]
+## [[Validation]]
